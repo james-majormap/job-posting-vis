@@ -14,10 +14,7 @@ def load_data():
     return data
 
 
-data_load_state = st.text('Loading data...')
 data = load_data()
-
-
 
 
 pyo.init_notebook_mode()
@@ -32,5 +29,6 @@ fig = px.scatter(
     width=800,
     height=600,
 )
+
 
 st.write(fig)
