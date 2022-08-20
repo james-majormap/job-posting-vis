@@ -28,7 +28,8 @@ fig = px.scatter(
     x='x',
     y='y',
     hover_name='name',
-    width=1000,
+    color='category',
+    width=800,
     height=600,
 )
 
