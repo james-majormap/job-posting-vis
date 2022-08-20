@@ -10,7 +10,7 @@ st.title('채용공고 자연어 분석')
 
 @st.cache
 def load_data():
-    data = pd.read_csv('umap_data.csv')
+    data = pd.read_csv('gs://majormap-public-data/job_postings_umap_data.csv')
     return data
 
 
